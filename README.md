@@ -1,3 +1,4 @@
 # Meu-Bash
 
-Personalização do bash do Linux. Adicionar esse código ao fim do arquivo .bashrc /home/seu_usuario/.bashrc
+Personalização do bash do Linux. Adicionar esse código ao fim do arquivo **.bashrc**
+Localizado em: /home/seu_usuario/.bashrc
