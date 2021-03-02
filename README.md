@@ -90,13 +90,58 @@ Para o terminal reconhecer o RVM execute
 $ source /home/schuarzem/.rvm/scripts/rvm
 ```
 * Ruby
+
 Instale o Ruby(no exemplo, as versão 2.6.6)
 ```
 $ rvm install 2.6.6
 ```
 * Rails
 
-
-
+Instale SQLite3
+```
+$ apt-get install sqlite3
+$ apt-get install libsqlite3-dev
+```
+Ou verifique se o mesmo já está instalado
+```
+$ sqlite3 --version
+```
+Instale o Node
+```
+$ sudo apt install nodejs
+```
+Instalando o yarn
+```
+curl -sL https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+```
+```
+echo "deb https://dl.yarnpkg.com/debian/ stable main" |
+sudo tee /etc/apt/sources.list.d/yarn.list
+```
+```
+sudo apt update && sudo apt install yarn
+```
+Instalação do Rais
+```
+gem install rails
+```
 
 chave-ssh: SHA256:ItErv5GJ8y9TJpfCQ8Pf/if/0eGs0SfkyOYhYTYQymw arlissonjaques@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
