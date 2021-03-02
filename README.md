@@ -74,10 +74,27 @@ Depois é só alterar o tema com os Tweak para o tema
 ```
 Flat-Remix-GTK-Blue-Darkest-Solid-NoBorder
 ```
+## Linguagens e Frameworks
 
-
-
-
+* RVM
+Instale as chaves GPG:
+```
+$ gpg2 --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
+```
+Instale o RVM
+```
+$ curl -sSL https://get.rvm.io | bash -s stable
+```
+Para o terminal reconhecer o RVM execute
+```
+$ source /home/schuarzem/.rvm/scripts/rvm
+```
+* Ruby
+Instale o Ruby(no exemplo, as versão 2.6.6)
+```
+$ rvm install 2.6.6
+```
+* Rails
 
 
 
