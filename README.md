@@ -117,7 +117,32 @@ Instalação do Rais
 gem install rails --no-document
 ```
 
-chave-ssh: SHA256:ItErv5GJ8y9TJpfCQ8Pf/if/0eGs0SfkyOYhYTYQymw arlissonjaques@gmail.com
+
+```
+sudo snap install rubymine --classic
+```
+
+# Terminal
+
+Instalação do zsh
+```
+sudo apt install zsh -y
+```
+Instalação do oh-my-zsh
+```
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+Instalação do FZF(Melhorar o historico de comandos(Ctrl + R)
+```
+git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+~/.fzf/install
+```
+Adicione "usr/bin/zsh" nas preferências dos terminal para executa-lo automaticamente
+
+
+
+
+
 
 
 
