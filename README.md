@@ -56,7 +56,7 @@ Depois selecione Papirus no Tweak
 
 Crie uma pasta para colocar os arquivos
 ```
-$ cd ~ && mkdir Themes && cd Themes
+$ cd ~ && mkdir .themes
 ```
 Clone o repositorio
 ```
@@ -79,7 +79,7 @@ Flat-Remix-GTK-Blue-Darkest-Solid-NoBorder
 * RVM
 Instale as chaves GPG:
 ```
-$ gpg2 --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
+$ gpg2 --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB -y
 ```
 Instale o RVM
 ```
@@ -97,18 +97,9 @@ $ rvm install 2.6.6
 ```
 * Rails
 
-Instale SQLite3
-```
-$ apt-get install sqlite3
-$ apt-get install libsqlite3-dev
-```
-Ou verifique se o mesmo já está instalado
-```
-$ sqlite3 --version
-```
 Instale o Node
 ```
-$ sudo apt install nodejs
+$ sudo apt install nodejs -y
 ```
 Instalando o yarn
 ```
@@ -123,7 +114,7 @@ sudo apt update && sudo apt install yarn
 ```
 Instalação do Rais
 ```
-gem install rails
+gem install rails --no-document
 ```
 
 chave-ssh: SHA256:ItErv5GJ8y9TJpfCQ8Pf/if/0eGs0SfkyOYhYTYQymw arlissonjaques@gmail.com
