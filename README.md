@@ -41,6 +41,64 @@ No GitHub, vá até
 ```
 Seu perfil > Settigns > SSH and GPG keys > New SSH key > e cole sua chave
 ```
+
+# Terminal
+* Tilix(Serve para abrir diversas abas no terminal etc)
+  - Baixe o pacote [aqui](https://launchpad.net/~webupd8team/+archive/ubuntu/terminix/+packages)
+  - Dê permissão para instalação e instale-o
+  ```
+  sudo chmod +x arquivo-do-tilix.deb
+  sudo apt install arquivo-do-tilix.deb
+  ```
+
+* Zsh
+```
+$ sudo apt install zsh -y
+```
+Instalação do oh-my-zsh(irá instalar também o curl)
+```
+$ sudo apt install curl && sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+Adicione "usr/bin/zsh" nas preferências dos terminal para executar o zsh automaticamente
+
+* Plugins do zsh
+
+Instalação do gerenciador de plugins Getantibody
+```
+$ curl -sfL git.io/antibody | sudo sh -s - -b /usr/local/bin
+```
+Crie um arquivo de configuração
+```
+$ nano ~/.zsh_plugins.sh 
+```
+Adicione seus Plugins no arquivo(exemplo)
+```
+zsh-users/zsh-autosuggestions
+zsh-users/zsh-syntax-highlighting
+agkozak/zsh-z
+```
+Use esse comando para ativar o carregamento dinamico
+```
+echo -e "source <(antibody init)\antibody bundle < ~/.zsh_plugins.sh"
+```
+Instalação do FZF(Melhorar o historico de comandos(Ctrl + R)
+```
+git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+~/.fzf/install
+```
+Tema
+```
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+```
+Set este tema no arquivo .zshrc
+```
+ZSH_THEME="powerlevel10k/powerlevel10k"
+```
+Reinicie o terminal e configure o tema de acordo com sua prefência
+
+Repositorio com varios (plugins)[https://github.com/unixorn/awesome-zsh-plugins]
+
+
 ## Personalização do sistema
 
 * Pacote de icones
@@ -79,7 +137,7 @@ Flat-Remix-GTK-Blue-Darkest-Solid-NoBorder
 * RVM
 Instale as chaves GPG:
 ```
-$ gpg2 --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB -y
+$ gpg2 --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
 ```
 Instale o RVM
 ```
@@ -95,6 +153,12 @@ Instale o Ruby(no exemplo, as versão 2.6.6)
 ```
 $ rvm install 2.6.6
 ```
+Adicione o Ruby ao PATH
+```
+echo "export PATH="$PATH:$HOME/.rvm/rubies/ruby-2.6.6/bin" >> .zshrc
+```
+Recarregue o terminal
+
 * Rails
 
 Instale o Node
@@ -121,32 +185,6 @@ gem install rails --no-document
 ```
 sudo snap install rubymine --classic
 ```
-
-# Terminal
-
-Instalação do zsh
-```
-sudo apt install zsh -y
-```
-Instalação do oh-my-zsh
-```
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-```
-Instalação do FZF(Melhorar o historico de comandos(Ctrl + R)
-```
-git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
-~/.fzf/install
-```
-Adicione "usr/bin/zsh" nas preferências dos terminal para executa-lo automaticamente
-
-
-
-
-
-
-
-
-
 
 
 
