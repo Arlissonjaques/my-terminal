@@ -186,7 +186,12 @@ gem install rails --no-document
 sudo snap install rubymine --classic
 ```
 
+# PostgreSQL
 
+Depois de instalado, criar nova rola(user):
+```
+sudo -u postgres createuser arlisson -dr
+```
 
 
 
