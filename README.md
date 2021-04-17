@@ -223,6 +223,9 @@ MAILGUN_DOMAI
 
 # SWITCHER RECEBEE
 API_SWITCHER_RECEBEE_URL=https://api-switcher-recebee-homolog.herokuapp.com/
+
+# Acess-token do meio de pagamento
+84545e97-80e8-455e-b364-1ce759f1ff24
 ```
 
 
