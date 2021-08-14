@@ -202,6 +202,11 @@ Depois de instalado, criar nova rola(user):
 sudo -u postgres createuser arlisson -dr
 ```
 
+# Extensoes
+As duas mais usadas sao
+- Dash to Dock (usasa para alterar a dash do ubuntu e e ficar me baixo!)
+- Vital (serve para verificar as infos do pc, tipo consumo de memoria ram e etc)
+
 
 
 
