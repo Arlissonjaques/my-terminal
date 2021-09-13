@@ -208,7 +208,10 @@ As duas mais usadas sao
 - Vital (serve para verificar as infos do pc, tipo consumo de memoria ram e etc)
 
 
-
+## Exelente regex para senha
+```
+^.*(?=.{10,})(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%^&+=]).*$
+```
 
 
 
