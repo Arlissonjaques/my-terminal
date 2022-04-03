@@ -1,5 +1,11 @@
 # Meu-Ubuntu
 
+## Estilizacao
+```
+Dash to Dock - (customizar a dash do Ubuntu)
+Vitals - (mostra informacoes do sistema)
+```
+
 ## Git
 
 Instalação
