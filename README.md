@@ -134,7 +134,7 @@ git clone https://github.com/daniruiz/flat-remix-gtk
 ```
 Copie os arquivos do clone para a pasta .themes
 ```
-sudo cp -r flat-remix-gtk/Flat-Remix-GTK-Blue-Darkest-Solid-NoBorder ~/.themes/
+sudo cp -r flat-remix-gtk/themes-old/Flat-Remix-GTK-Blue-Darkest-Solid-NoBorder ~/.themes/
 ```
 Depois é só alterar o tema com os Tweak para o tema
 ```
