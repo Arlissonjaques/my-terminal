@@ -132,10 +132,6 @@ Clone o repositorio
 ```
 git clone https://github.com/daniruiz/flat-remix-gtk
 ```
-Resta criar a pasta local onde ficará o tema
-```
-mkdir -p ~/.themes
-```
 Copie os arquivos do clone para a pasta .themes
 ```
 sudo cp -r flat-remix-gtk/Flat-Remix-GTK-Blue-Darkest-Solid-NoBorder ~/.themes/
