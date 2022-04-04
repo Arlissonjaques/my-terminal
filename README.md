@@ -165,9 +165,9 @@ Instale o Ruby(no exemplo, as versão 2.6.6)
 ```
 rvm install 2.6.6
 ```
-Adicione o Ruby ao PATH
+Adicione o Ruby ao PATH ao `~/.zshrc`
 ```
-export PATH="$PATH:$HOME/.rvm/rubies/ruby-2.6.6/bin" # mesma setando uma versao apenas, funcionara para todas
+export PATH="$PATH:$HOME/.rvm/rubies/default/bin"
 ```
 Recarregue o terminal
 
