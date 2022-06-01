@@ -165,6 +165,20 @@ Instale o Ruby(no exemplo, as versão 2.6.6)
 ```
 rvm install 2.6.6
 ```
+Caso tenha errors do tipo:
+```
+Error running '__rvm_make -j4',
+please read /home/arlisson/.rvm/log/1654095062_ruby-2.6.3/make.log
+
+There has been an error while running make. Halting the installation
+```
+Execute estes comandos:
+```
+rvm pkg install openssl
+rvm remove x.x.x # versao do ruby caso ja a tenha instalado
+rvm install x.x.x -C --with-openssl-dir=$HOME/.rvm/usr
+```
+
 Adicione o Ruby ao PATH ao `~/.zshrc`
 ```
 export PATH="$PATH:$HOME/.rvm/rubies/default/bin"
