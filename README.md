@@ -6,6 +6,8 @@ Dash to Dock - (customizar a dash do Ubuntu)
 Vitals - (mostra informacoes do sistema)
 ```
 
+<h4>Caso não funcone a ativacao da extencao, execute sudo apt install gnome-shell-extensions<h4>
+
 ## Git
 
 Instalação
