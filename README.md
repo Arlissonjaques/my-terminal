@@ -64,11 +64,11 @@ ssh -T git@github.com
 
 * Zsh
 ```
-$ sudo apt install zsh -y
+sudo apt install zsh -y
 ```
 Instalação do oh-my-zsh(irá instalar também o curl)
 ```
-$ sudo apt install curl && sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+sudo apt install curl && sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 Adicione "usr/bin/zsh" nas preferências dos terminal para executar o zsh automaticamente
 
