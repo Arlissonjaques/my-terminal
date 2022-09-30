@@ -219,6 +219,23 @@ Depois de instalado, criar nova rola(user):
 ```
 sudo -u postgres createuser arlisson -dr
 ```
+Acesse o psql com o usuario postgres.
+```
+sudo -u postgres psql
+```
+Altere a senha do usuario postgres para a desejada.
+```
+postgres# ALTER USER postgres ENCRYPTED PASSWORD ‘senha’;
+```
+Por fim, reinicie o serviço do postgres.
+```
+systemctl restart postgresql
+```
+Voce pode validar se a senha foi alterada usando:
+```
+psql -h localhost -U postgres -W -d postgres
+```
+E so digitar a senha e ver se funciona.
 
 # Extensoes
 As duas mais usadas sao
