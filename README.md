@@ -184,6 +184,7 @@ rvm install x.x.x -C --with-openssl-dir=$HOME/.rvm/usr
 Adicione o Ruby ao PATH ao `~/.zshrc`
 ```
 export PATH="$PATH:$HOME/.rvm/rubies/default/bin"
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" # serve para nao dar erro ao trocar de versao do ruby
 ```
 Recarregue o terminal
 
