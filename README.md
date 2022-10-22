@@ -250,9 +250,10 @@ As duas mais usadas sao
 ```
 
 
-
-
-
+#### comando para matar o server do rails
+```
+lsof -wni tcp:3000 
+```
 
 
 
