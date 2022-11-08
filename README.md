@@ -192,7 +192,9 @@ Recarregue o terminal
 
 Instale o Node
 ```
-sudo apt install nodejs -y
+curl -fsSL https://deb.nodesource.com/setup_current.x | sudo -E bash - sudo apt-get install -y nodejs
+
+curl -fsSL https://deb.nodesource.com/setup_current.x | bash - sudo apt-get install -y nodejs
 ```
 Instalando o yarn
 ```
